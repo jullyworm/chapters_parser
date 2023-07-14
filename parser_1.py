@@ -25,7 +25,7 @@ def parser(filename):
     doc_text.close
 
 def fb2_writer():
-    fb2_doc = open('C:/Users/missc/OneDrive/Документы/зп главы html/Книга.txt', 'w', encoding="utf8")
+    fb2_doc = open('C:/Users/user/Документы/html/Книга.txt', 'w', encoding="utf8")
     pretext = "<?xml version=\"1.0\" encoding=\"utf-8\"?> \n <description>\n <title-info>\n <author> \n<first-name>Имя</first-name>\n<last-name>Фамилия</last-name>\n</author>\n <book-title>Название</book-title>\n <annotation>\n Описание </annotation>\n<lang>ru</lang> \n </title-info>\n <document-info>\n<author>\n<first-name>Имя</first-name>\n<last-name>Фамилия</last-name>\n</author>\n</document-info>\n</description>\n<body>\n"
     fb2_doc.write(pretext)
     f = []
